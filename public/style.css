@@ -1,0 +1,129 @@
+body
+{
+	max-width: 925px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:grey;
+	font-family:  Arial, Helvetica, sans-serif;
+}
+.album-item
+{
+	display: inline-block;
+	width:30%;
+	margin:10px;
+	/*border: 1px black solid;*/
+	border-radius: 20px;
+	overflow: hidden;
+}
+.album-image
+{
+	height: 200px;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	/*background*/
+}
+.album-title
+{
+	bottom: 0px;
+	position: absolute;
+	left:10px;
+}
+.dark-box
+{
+	background-color:#00000020;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+.album-item h2
+{
+	/*margin-top: -40px;*/
+	color: white;
+
+}
+pre
+{
+	overflow: scroll;
+}
+img
+{
+	max-width: 100%;
+}
+.album-date
+{
+	margin-bottom: 13px;
+	float: right;
+	margin-right: 10px;
+}
+.album-item
+{
+	background-color:#ffffff;
+}
+.album-item p
+{
+	margin:15px 25px;
+	text-align: justify;
+}
+.like-icon
+{
+	float: left;
+}
+#profile-picture-div,#contact-info
+{
+	width: 24%
+}
+#profile-bio
+{
+	width: 49%;	
+}
+#profile-picture-div, #profile-bio, #contact-info
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+#profile-picture-div
+{
+	text-align: center;
+}
+#profile-picture
+{
+	border-radius: 50%;
+	/*margin: 25px;*/
+	width: 80%;
+	margin-right:auto;
+	margin-left: auto;
+}
+#profile-bio p, #profile-bio h2
+{
+	color: #808080;
+}
+#profile
+{
+	margin: 20px;
+	background-color:#ffffff;
+	border-radius: 10px;
+	padding: 30px;
+}
+#profile-bio h1, #profile-bio h2
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#profile-bio p
+{
+	margin:0px;
+}
+#contact-info a
+{
+	text-decoration: none;
+	color: #B8007C;
+}
+.fav
+{
+	color: #ff0000;
+}
